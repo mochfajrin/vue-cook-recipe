@@ -23,7 +23,7 @@ export const recipeCollectionMenuList = [
     icon: 'fa-regular fa-bookmark',
   },
   {
-    text: 'Your Recipe',
+    text: 'Your Recipes',
     link: 'users/recipes',
     icon: 'fa-regular fa-user',
   },
