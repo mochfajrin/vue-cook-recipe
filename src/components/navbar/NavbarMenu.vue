@@ -23,7 +23,7 @@ import NavbarMenuListIcon from '@/components/navbar/NavbarMenuListIcon.vue'
             />
           </div>
           <ul>
-            <li class="lg:my-5" v-for="(item, i) in recipeCollectionMenuList" :key="i">
+            <li class="lg:my-5 lg:ml-3" v-for="(item, i) in recipeCollectionMenuList" :key="i">
               <NavbarMenuListIcon v-bind="item" />
             </li>
           </ul>

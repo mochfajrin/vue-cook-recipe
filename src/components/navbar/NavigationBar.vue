@@ -11,6 +11,6 @@ import NavbarMenu from '@/components/navbar/NavbarMenu.vue'
       </div>
       <button><font-awesome-icon class="text-black" icon="fa-solid fa-angles-left" /></button>
     </div>
-    <NavbarMenu />
+    <navbar-menu />
   </nav>
 </template>
