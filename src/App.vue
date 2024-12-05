@@ -13,17 +13,32 @@ import BaseFooter from '@/components/footer/BaseFooter.vue'
       <navigation-bar />
     </header>
     <main class="flex-initial w-full bg-white overflow-hidden rounded">
-      <div class="pt-16 px-12">
+      <div class="mt-4 px-1 lg:px-12">
+        <ul class="flex justify-end gap-5">
+          <li>
+            <a href="/profile"
+              ><img
+                class="h-9 w-9 object-cover rounded-full"
+                src="/assets/img/profile.png"
+                alt="profile"
+            /></a>
+          </li>
+          <li>
+            <button class="bg-primary-color text-white py-2 px-4 text-sm rounded-md">
+              <font-awesome-icon icon="fa-regular fa-pen-to-square" /><span>Create</span>
+            </button>
+          </li>
+        </ul>
         <search-field />
         <banner-image />
         <section id="newestRecipe" class="my-7">
           <h2 class="font-semibold my-2">Newest Recipe</h2>
-          <div id="cardContainer" class="flex flex-wrap w-full justify-between">
+          <div id="cardContainer" class="flex flex-wrap w-full justify-between gap-2 lg:gap-3">
             <div
               v-for="(item, index) in 8"
               :key="index"
               id="card"
-              class="overflow-hidden border-solid border-black shadow-md rounded w-[24%] my-1"
+              class="overflow-hidden border-solid border-black shadow-md rounded w-full lg:w-[24%]"
             >
               <div class="relative w-full text-white">
                 <img class="w-full h-40 object-cover" src="/assets/img/potato.webp" alt="" />
@@ -32,7 +47,7 @@ import BaseFooter from '@/components/footer/BaseFooter.vue'
                   <div class="flex justify-between">
                     <div class="flex flex-row gap-1">
                       <img
-                        class="w-5 h-5 rounded-xl object-cover"
+                        class="w-5 h-5 rounded-full object-cover"
                         src="/assets/img/profile.png"
                         alt=""
                       />

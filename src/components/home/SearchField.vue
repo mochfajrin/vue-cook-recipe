@@ -3,11 +3,13 @@
     <a href="/">
       <img class="w-60" src="/assets/logo.png" alt="Cookpad Logo" />
     </a>
-    <div class="flex gap-2 justify-center w-full">
-      <div class="border-black border-solid border-[0.5px] px-3 py-2 rounded-lg">
+    <div class="flex gap-2 justify-center px-16 lg:px-52 md:px-32 w-full overflow-hidden">
+      <div
+        class="flex items-center w-full border-black border-solid border-[0.5px] px-3 py-[0.4rem] rounded-lg"
+      >
         <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
         <input
-          class="ml-2 w-96 px-2 py-1 focus:outline-none placeholder:text-secondary-color"
+          class="ml-2 px-2 py-1 w-96 focus:outline-none placeholder:text-secondary-color"
           type="text"
           placeholder="Search by recipe or ingredients"
         />
