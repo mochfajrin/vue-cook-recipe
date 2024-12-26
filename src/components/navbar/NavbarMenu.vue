@@ -17,7 +17,7 @@ import NavbarMenuListIcon from '@/components/navbar/NavbarMenuListIcon.vue'
           <div class="flex items-center p-3 gap-2 bg-gray-50 h-12 my-5 overflow-hidden">
             <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
             <input
-              class="bg-lightgray-color p-2 w-full text-black placeholder:text-secondary-color focus:outline-none"
+              class="bg-gray-50 p-2 w-full text-black placeholder:text-secondary-color focus:outline-none"
               type="text"
               placeholder="Search in your collection"
             />

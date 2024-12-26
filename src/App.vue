@@ -24,6 +24,13 @@ import BaseFooter from '@/components/footer/BaseFooter.vue'
             /></a>
           </li>
           <li>
+            <button
+              class="border border-gray-400 text-secondary-color py-2 px-4 text-sm rounded-md"
+            >
+              Masuk
+            </button>
+          </li>
+          <li>
             <button class="bg-primary-color text-white py-2 px-4 text-sm rounded-md">
               <font-awesome-icon icon="fa-regular fa-pen-to-square" /><span>Create</span>
             </button>
